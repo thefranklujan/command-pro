@@ -1,16 +1,16 @@
-import { FolderKanban, Calculator, Users, Palette } from "lucide-react";
-
 const footerLinks = {
-  Products: [
-    { name: "Command Projects", href: "#products" },
-    { name: "Command Finance", href: "#products" },
-    { name: "Command CRM", href: "#products" },
-    { name: "Command Design", href: "#products" },
+  Modules: [
+    { name: "Command Projects", href: "/features/projects" },
+    { name: "Command Finance", href: "/features/finance" },
+    { name: "Command CRM", href: "/features/crm" },
+    { name: "Command Design", href: "/features/design" },
+    { name: "Command Comms", href: "/features/comms" },
+    { name: "Command Playbook", href: "/features/playbook" },
   ],
   Company: [
-    { name: "About", href: "#" },
-    { name: "Careers", href: "#" },
-    { name: "Blog", href: "#" },
+    { name: "All Features", href: "/features" },
+    { name: "Pricing", href: "/#pricing" },
+    { name: "About", href: "/#social-proof" },
     { name: "Contact", href: "#" },
   ],
   Resources: [

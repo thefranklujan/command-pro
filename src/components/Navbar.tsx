@@ -3,16 +3,18 @@ import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 
 const products = [
-  { name: "Command Projects", href: "#products", desc: "Project management, crews, scheduling" },
-  { name: "Command Finance", href: "#products", desc: "Accounting, KPIs, tax, reporting" },
-  { name: "Command CRM", href: "#products", desc: "Sales pipeline, clients, proposals" },
-  { name: "Command Design", href: "#products", desc: "Design projects, assets, approvals" },
+  { name: "Command Projects", href: "/features/projects", desc: "Project management, crews, scheduling" },
+  { name: "Command Finance", href: "/features/finance", desc: "Accounting, KPIs, tax, reporting" },
+  { name: "Command CRM", href: "/features/crm", desc: "Sales pipeline, clients, proposals" },
+  { name: "Command Design", href: "/features/design", desc: "Design projects, assets, approvals" },
+  { name: "Command Comms", href: "/features/comms", desc: "Team chat, war room, AI assistant" },
+  { name: "Command Playbook", href: "/features/playbook", desc: "SOPs, policies, knowledge base" },
 ];
 
 const navLinks = [
-  { name: "Features", href: "#features" },
-  { name: "Pricing", href: "#pricing" },
-  { name: "About", href: "#social-proof" },
+  { name: "Features", href: "/features" },
+  { name: "Pricing", href: "/#pricing" },
+  { name: "About", href: "/#social-proof" },
 ];
 
 export default function Navbar() {
@@ -37,7 +39,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-hero flex items-center justify-center">
               <span className="text-white font-bold text-sm">C</span>
             </div>
