@@ -24,14 +24,14 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-ink leading-[1.05] animate-fade-up">
-            Stop paying for
+            One platform.
             <br />
-            <span className="gradient-text">8 different apps.</span>
+            <span className="gradient-text">Zero app switching.</span>
           </h1>
 
           {/* Subheadline */}
           <p className="mt-6 text-lg sm:text-xl text-ink-muted max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.15s" }}>
-            Command PRO replaces your project management, invoicing, CRM, team chat, file storage, and more — in one platform built for contractors.
+            Projects, invoicing, CRM, design, team chat, and more — unified in one ecosystem built for contractors. No more juggling 8 different logins.
           </p>
 
           {/* CTA buttons */}
@@ -59,6 +59,8 @@ export default function Hero() {
               { name: "Finance", color: "bg-cta/10 text-cta-dark border-cta/20" },
               { name: "CRM", color: "bg-secondary/10 text-secondary border-secondary/20" },
               { name: "Design", color: "bg-pink-50 text-pink-600 border-pink-200" },
+              { name: "Comms", color: "bg-amber-50 text-amber-600 border-amber-200" },
+              { name: "Playbook", color: "bg-sky-50 text-sky-600 border-sky-200" },
             ].map((product) => (
               <span
                 key={product.name}
