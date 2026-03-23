@@ -122,9 +122,9 @@ export default function Products() {
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">36 Tools in 6 Categories</p>
-          <h2 className="text-4xl lg:text-5xl font-extrabold text-ink tracking-tight">
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-ink tracking-tight text-balance">
             Everything you need.{" "}
-            <span className="gradient-text">Nothing you don&apos;t.</span>
+            <span className="gradient-text whitespace-nowrap">Nothing you don&apos;t.</span>
           </h2>
           <p className="mt-4 text-lg text-ink-muted">
             Each module is powerful on its own. Together, they replace your entire software stack.

@@ -66,9 +66,9 @@ export default function Features() {
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Why Teams Switch</p>
-          <h2 className="text-4xl lg:text-5xl font-extrabold text-ink tracking-tight">
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-ink tracking-tight text-balance">
             Built for contractors.{" "}
-            <span className="gradient-text">By contractors.</span>
+            <span className="gradient-text whitespace-nowrap">By contractors.</span>
           </h2>
           <p className="mt-4 text-lg text-ink-muted">
             Every feature exists because we got tired of the same problems you did.
