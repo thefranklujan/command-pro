@@ -87,11 +87,11 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <a href="#" className="text-sm font-medium text-ink-muted hover:text-ink transition-colors px-4 py-2">
+            <a href="https://ckcommand.vercel.app/sign-in" className="text-sm font-medium text-ink-muted hover:text-ink transition-colors px-4 py-2">
               Sign In
             </a>
             <a
-              href="#pricing"
+              href="https://ckcommand.vercel.app/sign-up"
               className="text-sm font-semibold text-white bg-primary hover:bg-primary-dark px-5 py-2.5 rounded-lg transition-all hover:shadow-lg hover:shadow-primary/25"
             >
               Get Started
@@ -136,7 +136,7 @@ export default function Navbar() {
             ))}
             <div className="border-t border-surface-200 my-2" />
             <a
-              href="#pricing"
+              href="https://ckcommand.vercel.app/sign-up"
               onClick={() => setMobileOpen(false)}
               className="block text-center text-sm font-semibold text-white bg-primary px-5 py-3 rounded-lg"
             >
