@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Command PRO — One Ecosystem. Every Tool You Need.",
-  description: "Replace QuickBooks, Monday.com, and Salesforce with one connected platform. Command Projects, Command Finance, Command CRM, and Command Design — all under one roof.",
-  keywords: "project management, accounting software, CRM, design management, business tools, SaaS",
+  title: "Command PRO | Software for Remodelers",
+  description: "Run your entire remodeling operation from one platform. Project management, invoicing, client portals, AI assistant, and 36 tools built for contractors. Replace 8 apps for $99/mo.",
+  keywords: "remodeling software, contractor software, project management, invoicing, CRM, construction management, QuickBooks alternative",
 };
 
 export default function RootLayout({

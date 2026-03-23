@@ -8,54 +8,54 @@ import {
   Lock,
   Globe,
   Layers,
-  Workflow,
+  Clock,
 } from "lucide-react";
 
 const features = [
   {
     icon: Layers,
-    title: "Unified Platform",
-    description: "All your tools share the same data, same login, same workspace. No more juggling 5 different apps.",
+    title: "One Platform, 36 Tools",
+    description: "Project management, invoicing, CRM, design studio, team chat, AI assistant, and 30 more tools — all sharing the same data.",
   },
   {
     icon: BarChart3,
-    title: "Real-Time KPIs",
-    description: "Dashboards that pull from every product. See your entire business health at a glance.",
+    title: "Real-Time Dashboards",
+    description: "See your projects, tasks, invoices, team activity, revenue, margins, and AR aging — all in one dashboard.",
   },
   {
-    icon: Workflow,
-    title: "Automated Workflows",
-    description: "When a project closes, the invoice generates. When a lead converts, the project creates. Everything connects.",
+    icon: Clock,
+    title: "Go Live in a Weekend",
+    description: "48 hours from sign-up to full operation. No setup calls, no IT department. Import your data or start fresh.",
   },
   {
     icon: Shield,
     title: "Enterprise Security",
-    description: "SOC 2 compliant, 256-bit encryption, role-based access control. Your data stays yours.",
+    description: "SOC 2 compliant, 256-bit encryption, role-based access control. Admin, partner, field, and vendor roles built in.",
   },
   {
     icon: Smartphone,
-    title: "Mobile First",
-    description: "Full functionality on every device. Manage your business from the field, the office, or the couch.",
+    title: "Works on Every Device",
+    description: "Full iOS app plus responsive web. Daily logs from the field, invoicing from the office, dashboards from anywhere.",
   },
   {
     icon: RefreshCw,
-    title: "Seamless Migration",
-    description: "Import from QuickBooks, Monday.com, Salesforce, and more. We handle the heavy lifting.",
+    title: "Cancel Your Other Apps",
+    description: "Most teams eliminate 5-8 subscriptions in month one. Import from QuickBooks, Buildertrend, Monday.com, and more.",
   },
   {
     icon: Zap,
-    title: "Lightning Fast",
-    description: "Built on modern infrastructure. Pages load in milliseconds, not seconds. No lag, no waiting.",
+    title: "AI Assistant Built In",
+    description: "Ask questions about your projects, get summaries, surface insights. Your data works harder so you don't have to.",
   },
   {
     icon: Lock,
-    title: "Role-Based Access",
-    description: "Admins, partners, and field workers each see exactly what they need. Nothing more, nothing less.",
+    title: "Your Data Is Yours",
+    description: "Full export anytime. No vendor lock-in. 30-day data retention after cancellation. No contracts, month-to-month only.",
   },
   {
     icon: Globe,
-    title: "Multi-Org Support",
-    description: "Run multiple businesses from one account. Each org gets its own isolated data and settings.",
+    title: "Client & Vendor Portals",
+    description: "Branded portals for clients to see progress, approve changes, and message you. Vendor portal for subs to access assigned work.",
   },
 ];
 
@@ -65,10 +65,10 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Why Command PRO</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Why Teams Switch</p>
           <h2 className="text-4xl lg:text-5xl font-extrabold text-ink tracking-tight">
-            Built different.{" "}
-            <span className="gradient-text">By design.</span>
+            Built for contractors.{" "}
+            <span className="gradient-text">By contractors.</span>
           </h2>
           <p className="mt-4 text-lg text-ink-muted">
             Every feature exists because we got tired of the same problems you did.

@@ -12,19 +12,19 @@ export default function CTA() {
 
           <div className="relative">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-              Ready to run your business
+              From chaos to command
               <br />
-              from one place?
+              in one weekend.
             </h2>
             <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
-              Join thousands of business owners who stopped paying for 5 tools and started using one.
+              Most teams go live in 48 hours. No setup calls, no IT department needed. Just sign up and start building.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#pricing"
                 className="group flex items-center gap-2 px-8 py-4 bg-white hover:bg-surface text-primary font-semibold rounded-xl transition-all hover:shadow-xl hover:-translate-y-0.5"
               >
-                Get Started Free
+                Start Free Trial
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
               <a

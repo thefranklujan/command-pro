@@ -19,19 +19,19 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 mb-8 animate-fade-in">
             <div className="w-2 h-2 rounded-full bg-cta animate-pulse" />
-            <span className="text-sm font-medium text-primary">The all-in-one business platform</span>
+            <span className="text-sm font-medium text-primary">36 tools. One platform. $99/mo.</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-ink leading-[1.05] animate-fade-up">
-            One ecosystem.
+            Stop paying for
             <br />
-            <span className="gradient-text">Every tool you need.</span>
+            <span className="gradient-text">8 different apps.</span>
           </h1>
 
           {/* Subheadline */}
           <p className="mt-6 text-lg sm:text-xl text-ink-muted max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.15s" }}>
-            Replace QuickBooks, Monday.com, and Salesforce with one connected platform built for your business.
+            Command PRO replaces your project management, invoicing, CRM, team chat, file storage, and more — in one platform built for contractors.
           </p>
 
           {/* CTA buttons */}
@@ -40,7 +40,7 @@ export default function Hero() {
               href="#pricing"
               className="group flex items-center gap-2 px-8 py-4 bg-primary hover:bg-primary-dark text-white font-semibold rounded-xl transition-all hover:shadow-xl hover:shadow-primary/25 hover:-translate-y-0.5"
             >
-              Get Started Free
+              Start Free Trial
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -48,7 +48,7 @@ export default function Hero() {
               className="group flex items-center gap-2 px-8 py-4 bg-white hover:bg-surface-100 text-ink font-semibold rounded-xl border border-surface-200 transition-all hover:shadow-lg hover:-translate-y-0.5"
             >
               <Play className="w-4 h-4 text-primary" />
-              Watch Demo
+              See All 36 Tools
             </a>
           </div>
 

@@ -5,14 +5,17 @@ const plans = [
   {
     name: "Starter",
     price: "$49",
-    period: "/mo",
-    description: "Perfect for solo operators and small teams getting started.",
+    period: "/user/mo",
+    description: "For solo operators and small crews getting organized.",
     features: [
-      "1 product of your choice",
-      "Up to 5 team members",
-      "Basic reporting",
-      "Email support",
-      "1 organization",
+      "Command Dashboard",
+      "Project Management",
+      "Task Management",
+      "Daily Logs",
+      "File Management",
+      "Team Chat",
+      "Up to 3 users",
+      "Add any Pro tool for $5/mo each",
     ],
     cta: "Start Free Trial",
     popular: false,
@@ -20,18 +23,21 @@ const plans = [
     ctaStyle: "bg-white hover:bg-surface-100 text-ink border border-surface-200",
   },
   {
-    name: "Professional",
-    price: "$129",
-    period: "/mo",
-    description: "For growing businesses that need the full ecosystem.",
+    name: "Pro",
+    price: "$99",
+    period: "/user/mo",
+    description: "For growing companies that need the full toolkit.",
     features: [
-      "All 4 products included",
-      "Up to 25 team members",
-      "Advanced KPI dashboards",
-      "Priority support",
-      "3 organizations",
-      "Client portals",
-      "Custom workflows",
+      "Everything in Starter",
+      "Invoicing & Expenses",
+      "Client Portals",
+      "Scope of Work & Gantt",
+      "CRM & Appointments",
+      "AI Assistant",
+      "Design Studio",
+      "Company Playbook",
+      "Checklists & Vendor Portal",
+      "Unlimited users",
     ],
     cta: "Start Free Trial",
     popular: true,
@@ -42,16 +48,16 @@ const plans = [
     name: "Enterprise",
     price: "Custom",
     period: "",
-    description: "For large teams with custom needs and dedicated support.",
+    description: "For large-scale operations with custom needs.",
     features: [
-      "All 4 products included",
-      "Unlimited team members",
+      "Everything in Pro",
+      "Dedicated onboarding",
       "Custom integrations",
-      "Dedicated account manager",
-      "Unlimited organizations",
+      "Priority support",
       "SSO & advanced security",
       "SLA guarantee",
       "White-label options",
+      "Unlimited organizations",
     ],
     cta: "Contact Sales",
     popular: false,
@@ -66,13 +72,13 @@ export default function Pricing() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Pricing</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">One Price. Every Tool.</p>
           <h2 className="text-4xl lg:text-5xl font-extrabold text-ink tracking-tight">
-            Simple pricing.{" "}
-            <span className="gradient-text">Serious value.</span>
+            Stop paying for{" "}
+            <span className="gradient-text">8 subscriptions.</span>
           </h2>
           <p className="mt-4 text-lg text-ink-muted">
-            Start free. Scale when you&apos;re ready. No hidden fees, no surprises.
+            All plans include a 14-day free trial — no credit card required.
           </p>
         </div>
 
@@ -140,7 +146,7 @@ export default function Pricing() {
 
         {/* Trust note */}
         <p className="text-center text-sm text-ink-muted mt-10">
-          14-day free trial on all plans. No credit card required.
+          14-day free trial on all plans. No credit card required. No contracts — cancel anytime.
         </p>
       </div>
     </section>
